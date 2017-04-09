@@ -28,7 +28,7 @@ class Game
   end
 
 
-  def current_player  
+  def current_player
       if @board.turn_count.even?
         player_1
       else
